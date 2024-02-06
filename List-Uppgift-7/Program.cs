@@ -6,12 +6,12 @@ namespace Uppgift_7
     {
         static void Main()
         {
-            string[] snus = { "a", "b", "b", "c", "hej" };
-            string[] snus2 = { "hej", "a", "a", "b", "programmering" };
+            string[] arr1 = { "a", "b", "b", "c", "hej" };
+            string[] arr2 = { "hej", "a", "a", "b", "programmering" };
 
-            foreach (string snusmus in FinnsIBåda(snus, snus2))
+            foreach (string str in FinnsIBåda(arr1, arr2))
             {
-                Console.Write($"\"{snusmus}\" ");
+                Console.Write($"\"{str}\" ");
             }
         }
 
